@@ -107,6 +107,7 @@ plt.legend()#顯示圖例
 plt.show()
 ```
 ![N|Solid](https://github.com/Liu-owo/109-2_NTUT_299444_HOMEWORK/blob/main/0623_Final%20Homework/Bar%20chart_1.PNG)
+
 9.提取HTTP Method有關的資料
 ```sh
 df['HTTP Method'] = df['URL'].str[0:4] #提取URL資料裡0~3的文字，將提取的文字放在HTTP Method
