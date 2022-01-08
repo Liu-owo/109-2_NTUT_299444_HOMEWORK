@@ -106,7 +106,7 @@ plt.title("Number of Status in Every Months ")#title的名字
 plt.legend()#顯示圖例
 plt.show()
 ```
-![N|Solid](https://raw.githubusercontent.com/Liu-owo/109-2_NTUT_299444_HOMEWORK/main/Bar%20chart_1.PNG)
+![N|Solid](https://github.com/Liu-owo/109-2_NTUT_299444_HOMEWORK/blob/main/0623_Final%20Homework/Bar%20chart_1.PNG)
 9.提取HTTP Method有關的資料
 ```sh
 df['HTTP Method'] = df['URL'].str[0:4] #提取URL資料裡0~3的文字，將提取的文字放在HTTP Method
@@ -146,7 +146,7 @@ plt.ylabel("Number of HTTP Method", fontweight = "bold")    # 設定y軸標題�
 plt.title("HTTP Method", fontsize = 15, fontweight = "bold", y = 1.1)   
 plt.xticks(rotation=45)   # 將x軸數字旋轉45度
 ```
-![N|Solid](https://raw.githubusercontent.com/Liu-owo/109-2_NTUT_299444_HOMEWORK/main/0623_Final%20Homework/plot_1.PNG)
+![N|Solid](https://raw.githubusercontent.com/Liu-owo/109-2_NTUT_299444_HOMEWORK/main/0623_Final%20Homework/Bar%20chart_1.PNG)
 ### 實作困難點
 
 ##### csv檔存放在D槽
